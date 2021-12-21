@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+.Nap{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    background-color: #C32424;
+}
+
+.Icon{
+    height: 45px;
+}
+
+.LoginButton {
+    margin-right: 36px;
+    color: #E8E8E8;
+}
+
+.LoginButton:hover {
+    color: #cecece;
+}
+
+.RegisterButton {
+    font-size: 14px;
+    background-color: #E8E8E8;
+    padding: 11px 20px;
+    width: 120px;
+    border-radius: 10px;
+    color: #C32424;
+    font-weight: bold;
+}
