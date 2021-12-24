@@ -1,0 +1,30 @@
+
+
+.ContainerBar {
+    padding: 0;
+    height: 5px;
+    width: 100%;
+    background-color: #C4C4C4;
+    border-radius: 50px;
+}
+
+.statusbar {
+    height: 100%;
+    background-color: #C32424;
+    border-radius: 50px;
+}
+
+.btnDonate {
+    background-color: #C32424;
+    outline: none;
+    border: none;
+    padding: 0px;
+}
+
+.btnDonate:hover {
+    background-color: #aa1e1e;
+}
+
+.btnDonate:active {
+    background-color: #721717;
+}

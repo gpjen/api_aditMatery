@@ -1,0 +1,46 @@
+*{
+    /* border: 1px solid black; */
+}
+
+.content1 {
+    background-color: #C32424;
+    height: 563px;
+}
+
+.content2 {
+    background-color: #E5E5E5;
+}
+.imgcontent1 {
+    position: absolute;
+    right: 0px;
+    max-width: 450px;
+}
+.imgcontent2 {
+    position: relative;
+    height: 563px;
+    left: -33%;
+    top: -90px;
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+@media (max-width:767px) {
+    .content1 {
+        background-color: #C32424;
+        height: 100%;
+        padding-bottom: 25px;
+    }
+    .imgcontent1 {
+        padding-bottom: 25px;
+        position: static;
+        max-width: 100%;
+    }
+    .imgcontent2 {
+        padding-top: 25px;
+        position: static;
+        max-width: 100%;
+    }
+}
