@@ -4,13 +4,14 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.text-holy-red{
+    color: #C32424;
+}
+.text-holy-grey{
+    color: #616161;
+    ;
+}
 
-.Nap{
-    font-size: 14px;
+.bg-holy{
     background-color: #C32424;
 }
-
-.Icon{
-    height: 45px;
-}
-

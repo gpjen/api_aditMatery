@@ -16,35 +16,23 @@
 
 .imgcontent1 {
     position: absolute;
-    right: 12px;
-    height: 135%;
+    right: 0px;
+    width: 33%;
 }
+
 .imgcontent2 {
     position: absolute;
-    left: 12px;
-    top: -23%;
-    height: 123%;
+    left: 0px;
+    top: -30%;
+    height: 130%;
 }
 
 
-@media (max-width:1117px) {
+@media (max-width:768px) {
     .center{
         display: flex;
         justify-content: center;
     }
-    .imgcontent1 {
-        right: 0px;
-        height: 100%;
-    }
-    .imgcontent2 {
-        top: 0px;
-        right: 0px;
-        width: 90%;
-        height: auto;
-    }
-}
-
-@media (max-width:850px) {
     .content1 {
         padding: 20px;
         background-color: #C32424;
@@ -65,7 +53,7 @@
     .imgcontent2 {
         padding-top: 5px;
         position: static;
-        width: 100%;
+        width: 70%;
         height: auto;
     }
 }
