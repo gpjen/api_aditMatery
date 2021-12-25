@@ -1,0 +1,25 @@
+
+.LoginButton {
+    text-decoration: none;
+    margin-right: 36px;
+    color: #E8E8E8;
+}
+
+.LoginButton:hover {
+    color: #cecece;
+}
+.btnLogin:active {
+    color: #cecece;
+}
+
+
+.btnLogin {
+    outline: none;
+    border: none;
+    background-color:#C32424 ;
+    border-radius:10px
+}
+
+.btnLogin:hover {
+    background-color:#a52020 ;
+}

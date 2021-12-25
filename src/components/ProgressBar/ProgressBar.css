@@ -1,0 +1,12 @@
+.ContainerBar {
+    padding: 0;
+    width: 100%;
+    background-color: #C4C4C4;
+    border-radius: 50px;
+}
+
+.statusbar {
+    height: 100%;
+    background-color: #C32424;
+    border-radius: 50px;
+}
