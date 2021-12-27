@@ -4,27 +4,29 @@
 }
 
 .content1 {
-    background-color: #C32424;
     padding-bottom: 80px;
     height: 100%;
 }
 
 .content2 {
     padding-bottom: 50px;
-    background-color: #E5E5E5;
+    /* background-color: #E5E5E5; */
 }
 
 .imgcontent1 {
     position: absolute;
     right: 0px;
-    width: 33%;
+    width: 30%;
+    height: 100%;
 }
 
 .imgcontent2 {
     position: absolute;
     left: 0px;
-    top: -30%;
-    height: 130%;
+    top: -50px;
+    width: 25%;
+    height: 100%;
+
 }
 
 
@@ -35,12 +37,10 @@
     }
     .content1 {
         padding: 20px;
-        background-color: #C32424;
         padding-bottom: 25px;
     }
     .content2 {
         padding: 20px;
-        background-color: #E5E5E5;
         padding-bottom: 25px;
     }
     .imgcontent1 {

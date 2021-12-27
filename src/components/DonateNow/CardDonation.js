@@ -11,8 +11,10 @@ function Donation(props) {
             <div className="card mb-5 ">
                 <img src={props.content.imageUrl} className="card-img-top" alt="gpjen" />
                 <div className="card-body">
-                    <h5 className="card-title fw-bold">{props.content.tittle}</h5>
-                    <p className="card-text">{props.content.text}</p>
+                    <div className="text overflow-auto" style={{minHeight:110}}>
+                        <h5 className="card-title fw-bold">{props.content.tittle}</h5>
+                        <p className="card-text">{props.content.text}</p>
+                    </div>
                         <ProgressBar style={{
                             width:`${props.content.totalDonasiTerkumpul}%`,
                             height:5

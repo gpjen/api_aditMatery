@@ -1,28 +1,36 @@
 
-import { Row, Col } from "react-bootstrap";
 import React from "react";
-
-import ProfileImage from '../assets/img/Rectangle 12.jpg'
+import { Col, Container, Row } from "react-bootstrap";
+import Transaction from "../components/Transaction/Transaction";
+import Info from "../components/Info/Info";
 
 function ProfilePage() {
     return (
-        <div>
-            <Row>
-                <Col md="12"><h3>My Profile</h3></Col>
-                <Col md="5">
-                    <img src={ProfileImage} alt="Profile" />
-                </Col>
-                <Col md="7">
-                    <h5 className="text-holy-red">Full Name</h5>
-                    <p className="text-holy-grey">Gandi Jen</p>
-
-                    <h5 className="text-holy-red">Email</h5>
-                    <p className="text-holy-grey">nyonggpj9995@gmail.com</p>
-
-                    <h5 className="text-holy-red">Phone</h5>
-                    <p className="text-holy-grey">082198554488</p>
-                </Col>
-            </Row>
+        <div className="bg-holy-grey py-5" style={{minHeight:"90vh"}}>
+            <Container>
+                <Row>
+                    <Col md="7" >
+                        <Row>
+                            <Col md="12" >
+                                <h3>My Profile</h3>
+                            </Col>
+                            <Col md="12" >
+                                <Info />
+                            </Col>
+                        </Row>
+                    </Col>
+                    <Col md="5">
+                        <Row>
+                            <Col md="12">
+                                <h3>History Donation</h3>
+                            </Col>
+                            <Col md="12">
+                                <Transaction />
+                            </Col>
+                        </Row>
+                    </Col>
+                </Row>
+            </Container>
         </div>
     )
 }

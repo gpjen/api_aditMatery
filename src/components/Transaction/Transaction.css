@@ -1,0 +1,19 @@
+
+
+.size-12 {
+    font-size: 12px;
+}
+.size-13 {
+    font-size: 13px;
+}
+.size-16 {
+    font-size: 17px;
+}
+
+.finished{
+    text-align: center;
+    padding: 5px 25px;
+    border-radius: 2px;
+    background-color: #E6FFF2;
+    color: #00FF47;
+}

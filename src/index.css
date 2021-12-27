@@ -1,7 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+@font-face {
+    font-family: "Product sans";
+    src: url('./assets/font/Product\ Sans\ Regular.ttf');
+}
 
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Product sans', sans-serif;
 }
 
 .text-holy-red{
@@ -12,6 +15,14 @@
     ;
 }
 
-.bg-holy{
+.bg-holy-red{
     background-color: #C32424;
+}
+
+.bg-holy-grey{
+    background-color: #E5E5E5;
+}
+
+.consoleLog{
+    border: solid 2px black;
 }

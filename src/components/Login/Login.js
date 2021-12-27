@@ -13,7 +13,7 @@ function Login() {
     return (
         <div>
 
-            <Link variant="light" className='LoginButton' onClick={handleShowLogin}>Login</Link>
+            <Link variant="light" className='LoginButton mb-3' onClick={handleShowLogin}>Login</Link>
 
 
             <Modal show={show} onHide={handleCloseLogin}>

@@ -6,9 +6,8 @@ import {BrowserRouter as Router} from 'react-router-dom'
 // //component
 import './index.css'
 import NavbarMenu from './components/Navbar/Navbar'
-import Content from './components/Content/Content1';
-import DonationNow from './components/DonateNow/DonateNow'
-// import ProfilePage from './Pages/Profile';
+import ProfilePage from './Pages/Profile';
+import Home from './Pages/Home';
 
 
 
@@ -19,8 +18,7 @@ function App() {
             <Router>
                 <NavbarMenu />
             </Router>
-            <Content />
-            {/* <DonationNow /> */}
+            
         </div>
     )
 }
