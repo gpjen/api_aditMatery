@@ -1,5 +1,6 @@
 
 .LoginButton {
+    cursor: pointer;
     text-decoration: none;
     margin-right: 36px;
     color: #E8E8E8;

@@ -2,7 +2,6 @@
 import './Login.css';
 import {Button, Modal, Form} from "react-bootstrap";
 import { useState } from "react";
-import { Link } from "react-router-dom";
 
 
 function Login() {
@@ -13,7 +12,7 @@ function Login() {
     return (
         <div>
 
-            <Link variant="light" className='LoginButton mb-3' onClick={handleShowLogin}>Login</Link>
+            <a variant="light" className='LoginButton mb-3' onClick={handleShowLogin}>Login</a>
 
 
             <Modal show={show} onHide={handleCloseLogin}>
@@ -38,7 +37,7 @@ function Login() {
                 </Modal.Body>
             </Modal>
         </div>
-    );
+    )
 }
 
 export default Login;

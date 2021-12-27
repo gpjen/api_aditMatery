@@ -15,10 +15,9 @@ import Home from './Pages/Home';
 function App() {
     return(
         <div>
-            <Router>
-                <NavbarMenu />
-            </Router>
-            
+            <NavbarMenu />
+            <Home />
+            <ProfilePage />
         </div>
     )
 }

@@ -5,9 +5,6 @@ import {Container, Nav, Navbar} from 'react-bootstrap'
 import ComLogo from '../../assets/img/Icon.png'
 import BtnRegister from '../Register/Register'
 import Login from '../Login/Login'
-import DropDown from '../DropDown/DropDown'
-
-const isLogin = false;
 
 export default function NavbarMenu(){
     return (
@@ -19,9 +16,10 @@ export default function NavbarMenu(){
                     <Navbar.Collapse id="navbarScroll">
                     <Nav className="me-auto my-2 my-lg-0" style={{ maxHeight: '100px' }} navbarScroll >
                     </Nav>
-                            {/* <BtnRegister />
-                            <Login /> */}
-                        <DropDown />
+
+
+                        {/* <Login />
+                        <BtnRegister /> */}
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
